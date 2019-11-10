@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
@@ -52,14 +52,14 @@ header {
 }
 
 .title a {
-    color: #000305;
+    color: #000355;
     border: none;
 }
 
 .title a:hover,
 .title a:focus,
 .title a:active {
-    color: #c74350;
+    color: #c74355;
     background-color: transparent;
 }
 
