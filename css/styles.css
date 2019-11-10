@@ -27,7 +27,7 @@ h1 {
 
 h2 {
   font-size: 24px;
-  color: #c74350;
+  color: orange;
   margin: 10px 0 0 0;
 }
 
@@ -37,7 +37,7 @@ h4 {
 }
 
 a {
-  color: #c00070;
+  color: blueviolet;
   transition: all 0.4s ease-in-out;
   text-decoration: none;
   border-bottom: 1px solid #c74350;
