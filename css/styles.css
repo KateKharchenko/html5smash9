@@ -1,9 +1,9 @@
 body {
-    font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Trebuchet MS", Trebuchet, "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     font-size: 14px;
-    color: #000505;
+    color: #000305;
     line-height: 1.5;
-    background: #F5F4EF;
+    background: #f5f4ef;
 }
 
 .container {
@@ -26,7 +26,7 @@ h1 {
 
 h2 {
     font-size: 24px;
-    color: #c74350;
+    color: orange;
     margin: 10px 0 0 0;
 }
 
@@ -36,8 +36,8 @@ h4 {
 }
 
 a {
-    color: #c00070;
-    transition: all .4s ease-in-out;
+    color: blueviolet;
+    transition: all 0.4s ease-in-out;
     text-decoration: none;
     border-bottom: 1px solid #c74350;
 }
@@ -57,7 +57,7 @@ header {
 }
 
 .title a {
-    color: #000355;
+    color: #050973;
     border: none;
 }
 
@@ -93,7 +93,7 @@ header {
     display: block;
     padding: 5px;
     color: #000305;
-    border-bottom: 5px solid #F4E3E3;
+    border-bottom: 5px solid #f4e3e3;
 }
 
 .menu a:hover,
@@ -110,7 +110,8 @@ header {
     background-color: #fff;
     border-radius: 15px;
     padding: 15px 25px;
-    margin-bottom: 5px;
+    margin-bottom: 25px;
+    background-color: rgb(154, 243, 176);
 }
 
 article h3 a {
@@ -135,7 +136,7 @@ article h4 a {
 }
 
 .section article+article {
-    border-top: 1px solid #F4E3E3;
+    border-top: 1px solid #f4e3e3;
 }
 
 
@@ -163,10 +164,5 @@ footer h4 a {
 }
 
 .copyright {
-<<<<<<< HEAD
     text-align: right;
-
-=======
-    text-align: center;
->>>>>>> 152b21f7674801130465535228edd1214e5c30dc
 }
