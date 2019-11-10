@@ -1,7 +1,7 @@
 body {
     font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 14px;
-    color: #000305;
+    color: #000505;
     line-height: 1.5;
     background: #F5F4EF;
 }
@@ -110,7 +110,7 @@ header {
     background-color: #fff;
     border-radius: 15px;
     padding: 15px 25px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
 }
 
 article h3 a {
@@ -163,6 +163,10 @@ footer h4 a {
 }
 
 .copyright {
+<<<<<<< HEAD
     text-align: right;
 
+=======
+    text-align: center;
+>>>>>>> 152b21f7674801130465535228edd1214e5c30dc
 }
