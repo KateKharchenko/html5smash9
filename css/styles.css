@@ -1,7 +1,7 @@
 body {
     font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 14px;
-    color: #000305;
+    color: #1c48da;
     line-height: 1.5;
     background: #F5F4EF;
 }
@@ -93,7 +93,7 @@ header {
     display: block;
     padding: 5px;
     color: #000305;
-    border-bottom: 1px solid #F4E3E3;
+    border-bottom: 5px solid #F4E3E3;
 }
 
 .menu a:hover,
