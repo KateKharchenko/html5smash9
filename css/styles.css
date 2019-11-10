@@ -7,11 +7,14 @@ body {
 }
 
 .container {
-    max-width: 900px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-weight: 400;
     margin: 0;
 }
@@ -27,12 +30,13 @@ h2 {
     margin: 10px 0 0 0;
 }
 
-h3, h4 {
+h3,
+h4 {
     font-size: 20px;
 }
 
 a {
-    color: #c74350;
+    color: #c00070;
     transition: all .4s ease-in-out;
     text-decoration: none;
     border-bottom: 1px solid #c74350;
@@ -40,10 +44,11 @@ a {
 
 a:hover,
 a:focus,
-a:active {  
+a:active {
     color: #fff;
     background-color: #c74350;
 }
+
 
 /* Header styles */
 
@@ -71,7 +76,9 @@ header {
     font-size: 18px;
 }
 
+
 /* Aside styles */
+
 .menu {
     padding: 0;
     list-style: none;
@@ -86,7 +93,7 @@ header {
     display: block;
     padding: 5px;
     color: #000305;
-    border-bottom: 1px solid #F4E3E3;
+    border-bottom: 5px solid #F4E3E3;
 }
 
 .menu a:hover,
@@ -95,6 +102,7 @@ header {
     color: #fff;
     border-color: #c74350;
 }
+
 
 /* Main styles */
 
@@ -126,11 +134,13 @@ article h4 a {
     padding: 15px 0;
 }
 
-.section article + article {
+.section article+article {
     border-top: 1px solid #F4E3E3;
 }
 
+
 /* Footer styles */
+
 .row {
     display: flex;
     align-items: center;
@@ -140,7 +150,7 @@ article h4 a {
     align-items: flex-start;
 }
 
-.col + .col {
+.col+.col {
     margin-left: 25px;
 }
 
